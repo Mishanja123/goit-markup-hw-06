@@ -554,7 +554,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
-.sub {
+.sub-footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -618,7 +618,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
     background-color: #FCFCFC;
     width: 408px;
-    height: 576px;
+    padding: 72px 24px 24px 24px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
@@ -678,17 +678,12 @@ fill: var(--white-color);
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: center;
-    padding-top: 72px;
     margin-bottom: 6px;
     color: #2E2F42;
 }
 .order-form {
     display: flex;
     flex-direction: column;
-    padding-right: 24px;
-    padding-left: 24px;
-    
-    
 }
 
 .order-form-label {
@@ -711,6 +706,7 @@ fill: var(--white-color);
     border-radius: 4px;
     padding-left: 38px;
     padding-right: 38px;
+    outline: none;
 
     font-size: 18px;
     transition-property: border-color;
